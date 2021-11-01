@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.purple-color{
+    background: #1F2B6C;
+}
+
+.color{
+    color: #1F2B6C;
+}
+
+.light-color{
+    color:#159EEC;
+}
+
+.lighter-color{
+    color:#BFD2F8;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+.appointment-btn-link a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 48px;
+    color: #1F2B6C;
+}
+
+h2, h3, h4{
+    font-family: 'Yeseva One', cursive;
+    font-size: 32px;
+    color: #1F2B6C;
+} 
+
+h5{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #159EEC;
+    letter-spacing: 3px;
+}
+
+header{
+    width: 100%;
+}
+
+.hero{
+    position: relative;
+    background-image: url("../images/Physician_Trends_2021_Merritt_Hawkins\ 2.png");
+    background-position: top;
+    background-size: cover;
+    height: 70vh;
+}
+
+.welcome-text-box{
+    margin-top: 5rem;
+}
+
+.appointment{
+    position: absolute;
+    bottom: -50px;
+    left:0;
+    right:0;
+}
+
+.appointment-btn1{
+    background-color: #1F2B6C;
+}
+
+.appointment-btn2{
+    background: #BFD2F8;
+}
+
+.appointment-btn3{
+    background: #159EEC;
+}
+
+.hero-text{
+    position: absolute;
+    top:50%;
+    transform: translate(30%, -50%);
+}
+
+.hero-text h3, .direction p{
+    color: #159EEC;
+}
+
+.black-doctors-bg{
+    background-image: url("../images/Blackdoctors\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    position: relative;
+}
+
+.bottom-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.inner-imgs{
+    opacity: 0.6;
+    position: absolute;
+        left:-2px;
+        top:0;
+}
+
+.Appointment-text{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Appointment{
+    position: relative;
+}
+
+.Appointment::before{
+    background-image: url("../images/Rectangle\ 33.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    opacity: 0.75;
+}
+
+.form-row .form-group{
+    margin-bottom: 0;
+}
+
+.form-row .form-group .form-control{
+    border-radius: 0;
+    background-color:#1F2B6C;
+    color: white;
+}
+
+.form-control::placeholder{
+    color: white;
+}
+
+#exampleFormControlTextarea1{
+    background-color: #1F2B6C;
+}
+
+form .btn{
+    background-color: #159EEC;
+}
+
+.carousel-indicators{
+    bottom:-30px;
+}
+
+.news h5{
+    margin-top: 10rem;
+}
+
+footer input{
+    outline: none;
+    border: 1px solid #BFD2F8;
+    border-radius: .1rem;
+}
+
+footer input::placeholder{
+    color:#1F2B6C;
+}
+
+.input-box{
+    position: relative;
+}
+
+.input-box input{
+    width: 100%;
+}
+
+.input-box img{
+    position: absolute;
+    top:0;
+    right: .7rem;
+
+}
+
+.Main-nav .navbar-expand-lg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-nav{
+    display: none;   
+}
+
+.phone-search{
+    visibility: hidden;
+}
+
+
+@media(max-width:766px){
+    .form-row .form-group{
+       padding: initial;
+    }
+
+    .form-row .form-group .form-control{
+        padding:initial
+    }
+}
+
+
+@media(max-width:750px){
+   .top{
+       width: 50%;
+       margin-bottom: .5rem;
+   }
+   .top img{
+       height: 1.3rem;
+   }
+   .specialties .row{
+       padding: 0px 30px;
+   }
+}
+
+@media(max-width:1067px){
+    body{
+        font-size: 13px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    h2, h3, h4{
+        font-size: 12px;
+    } 
+    h5{
+        font-size: 14px;
+    }
+    .btn-lg{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:977px) {
+    .appointment{
+        display: none;
+    }
+    .hero-text{
+        text-align: center;
+        position: relative;
+        transform: none;
+        top: inherit;
+    }
+   .phone-nav{
+        display: block;   
+    }
+    .phone-search{
+        visibility: visible;
+    }
+    .TopMost .navbar-brand{
+       display: none;
+   }
+   .TopMost .navbar-expand-lg{
+       padding-right: 2px;
+       padding-left: 2px;
+   }
+   .search-box{
+       display: none;
+   }
+   .search-box-btn{
+       background-color: #1F2B6C !important;
+       margin: .5rem auto;
+       color: white;
+   }
+   .blue-nav{
+       background-color: #BFD2F8 !important;
+   }
+}
+
+
+
+
+
+
+
+
+

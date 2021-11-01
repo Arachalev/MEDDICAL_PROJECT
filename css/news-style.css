@@ -1,0 +1,29 @@
+.small-hero{
+    position: relative;
+    height: 50vh;
+}
+
+.small-hero::before{
+    background-image: url("../images/Rectangle\ 3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    opacity: 0.6;
+    z-index: -20;
+}
+
+.bottom-img{
+    position: absolute;
+    bottom: 0;
+}
+
+.button-section button{
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+}

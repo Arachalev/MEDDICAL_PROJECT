@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="stylesheet" href="css/appointment.css">
+    <title>Appointment</title>
+</head>
+<body class="m-0">
+    <div class="container-fluid p-0">
+        <div class="top-most-container">
+            <div class="top-most d-flex py-2 flex-wrap justify-content-center align-items-center" >
+                <div class="meddical py-2 d-none d-md-flex ms-2 font--yeseva">
+                    <span class="text-uppercase fs-2 fw-normal"><p class="m-0 color--primary">med</p></span> <span class="text-uppercase fs-2 fw-normal"><p class="m-0 color--secondary">dical</p></span>
+                </div>
+                <div class="d-flex ms-lg-auto justify-content-center flex-wrap">
+                    <div class="work-details ms-lg-3 py-2">
+                        <div class="emergency d-flex justify-content-center">
+                            <div class="phone-icon">
+                                <span class="phone "> <i><img  src="img/Group 188.svg" alt=""></i></span>
+                                
+                            </div>
+                            <div class="emergency-details d-flex flex-column px-2 justify-content-center">
+                                <span><p class=" m-0 text-uppercase fs-6 fw-normal color--primary">emergency</p></span>
+                                <span><p class="m-0 color--secondary">(237) 681-812-255</p></span>
+                            </div>               
+                        </div>
+                    </div>
+                    <div class="work-details ms-lg-3 py-2">
+                        <div class="emergency d-flex justify-content-center">
+                            <div class="clock-icon">
+                                <span class="clock "> <i><img  src="images/Group 177.svg" alt=""></i></span>
+                                
+                            </div>
+                            <div class="work-hour d-flex flex-column px-2 justify-content-center">
+                                <span><p class=" m-0 text-uppercase fs-6 fw-normal color--primary">work hour</p></span>
+                                <span><p class="m-0 color--secondary">09:00 - 20:00 Everyday</p></span>
+                            </div>               
+                        </div>
+                    </div>
+                    <div class="work-details ms-lg-3 py-2">
+                        <div class="location d-flex justify-content-center">
+                            <div class="location-icon">
+                                <span class="location "> <i><img  src="images/Group 178.svg" alt=""></i></span>
+                                
+                            </div>
+                            <div class="location-details d-flex flex-column px-2 justify-content-center">
+                                <span><p class=" m-0 text-uppercase fs-6 fw-normal color--primary">location</p></span>
+                                <span><p class="m-0 color--secondary">0123 Some Place</p></span>
+                            </div>               
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+
+        <div class="navbar--container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="d-block d-lg-none">
+                    <a href="#">
+                        <img src="images/Meddical.png" alt="" />
+                      </a>
+                </div>
+                <div class="d-flex align-items-center d-lg-none ms-auto">
+                    <span>
+                        <button class="not--button">
+                            <i class="fa fa-search text-white fs-3" aria-hidden="true" id="search--icon" ></i>
+                        </button>
+                    </span>
+                    <input class="form-control width-auto mr-sm-2 my-1 nav-text me-2 search--bar"  id="search--bar" type="search" placeholder="&#128269 Search" aria-label="Search"/>
+                </div>
+             
+
+                <button
+                  class="navbar-toggler nav-text"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                <span class=""><i class="fa fa-bars text-white" aria-hidden="true"></i></span></span>
+                </button>
+                <div class="collapse navbar-collapse nav-text" id="navbarNavDropdown">
+                    <div>
+                        <ul class="navbar-nav me-auto text-center">
+                            <li class="nav-item active mx-1">
+                              <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item mx-1">
+                              <a class="nav-link" href="About-us">About us</a>
+                            </li>
+                            <li class="nav-item mx-1">
+                              <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item mx-1">
+                              <a class="nav-link" href="#">Doctors</a>
+                            </li>
+                            <li class="nav-item mx-1">
+                                <a class="nav-link" href="news.html">News</a>
+                            </li>
+                            <li class="nav-item mx-1">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                          </ul>
+                    </div>
+                    <form class=" form-inline my-2 my-lg-0 mr-sm-2 search-bar ms-auto d-lg-flex align-items-center">
+                        <div class="d-none d-lg-flex align-items-center">
+                            <span>
+                                <button class="not--button">
+                                    <i class="fa fa-search text-white fs-3" aria-hidden="true" id="search--icon" ></i>
+                                </button>
+                            </span>
+                            <input class="form-control width-auto mr-sm-2 my-1 nav-text me-2 search--bar"  id="search--bar" type="search" placeholder="&#128269 Search" aria-label="Search"/>
+                        </div>
+                        <div class="text-center d-grid appointment-btn"><button class="nav-btn btn  rounded-pill" type="submit"><a href="appointment.html" class="text-light">Appointment</a></button></div>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+        <div class="section--hero position-relative" onclick= "searchBarOff()">
+            <div class="header">
+                <div class="link display--4">
+                    <p><a href="#" class="color--primary text-decoration-none">Home</a> / <a href="#" class="color--primary text-decoration-none">Appointment</a></p>
+                </div>
+                <h1 class="display--1 font--yeseva color--primary">
+                    Book an Appointment
+                </h1>
+            </div>
+            <div class="circle circle__left position-absolute"></div>
+            <div class="circle circle__right position-absolute"></div>
+            <div class="radial--line"></div>
+        </div>
+    </div>
+    <div class="container spacing--1">
+        <section class="book--schedule row gy-5 gx-sm-1 gx-md-5 align-items-end">
+            <section class="section--book col-12 col-lg-6">
+                <div class="section--book--text">
+                    <h2 class="display--2 color--primary font--yeseva mb-3">
+                        Book an Appointment
+                    </h2>
+    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+                        elit. Quisque placerat scelerisque tortor ornare ornare. 
+                        Convallis felis vitae tortor augue. Velit nascetur proin
+                         massa in. Consequat faucibus porttitor enim et.
+                    </p>
+                </div>
+    
+                <div class="section--book--select">
+                    <form class="row">
+                        <div class="col-12 col-lg-6">
+                            <input type="text" class="form-control form-control-lg" id="name" placeholder="Name">
+                        </div>
+                        <div class="col-12 col-lg-6 form-group">
+                            <div class="select">
+                                <select class="select-element form-control form-control-lg custom-select" id="gender">
+                                    <option selected>Gender</option>
+                                    <option value="female">Female</option>
+                                    <option value="male">Male</option>
+                                </select>
+                                <img class= "selector" src="images/icons/dropdown.svg" alt="select">
+                            </div>
+                        </div>
+                           
+                        <div class="col-12 col-lg-6">
+                          <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Email">
+                        </div>
+    
+                        <div class="col-12 col-lg-6">
+                            <input type="tel" class="form-control form-control-lg" id="phonenumber" placeholder="Phone">
+                        </div>
+    
+                        <div class="col-12 col-lg-6">
+                          <input type="date" class="form-control form-control-lg" id="date">
+                        </div>
+    
+                        <div class="col-12 col-lg-6">
+                          <input type="time" class="form-control form-control-lg" id="time">
+                        </div>
+    
+                        <div class="col-12 col-lg-6 form-group">
+                            <div class="select">
+                                <select class="select-element form-control form-control-lg custom-select" id="doctor">
+                                    <option selected>Doctor</option>
+                                    <option value="001">Dr. Ben Carson</option>
+                                    <option value="004">Dr. Norman Borlaug </option>
+                                    <option value="007">Dr. Venus Nicolino</option>
+                                    <option value="009">Dr. Humberto Palladino</option>
+                                </select>
+                                <img class= "selector" src="images/icons/dropdown.svg" alt="select">
+                            </div>
+                        </div>
+    
+                        <div class="col-12 col-lg-6 form-group">
+                            <div class="select">
+                                <select class="select-element form-control form-control-lg custom-select" id="department">
+                                    <option selected>Department</option>
+                                    <option value="001">Gynaecology</option>
+                                    <option value="004">Paediatrics </option>
+                                    <option value="007">Orthopaedics</option>
+                                    <option value="009">Psychiatry</option>
+                                    <option value="009">Cardiology</option>
+                                    <option value="009">Dental</option>
+                                </select>
+                                <img class= "selector" src="images/icons/dropdown.svg" alt="select">
+                            </div>
+                        </div>
+                        
+                        <div class="col-12">
+                            <textarea class="form-control" id="message" rows="8" placeholder="Message"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary text-uppercase color--primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+    
+    
+            <section class="section--schedule  col-12 col-lg-6">
+                <div class="section--schedule--content pt-5 pb-5">
+                    <div class="header text-center">
+                        <h2 class="display--1 color--accent font--yeseva">
+                            Schedule hours
+                        </h2>
+                    </div>
+                    <div class="schedule--hours">
+                        <div class="schedule--hours--content spacing--2">
+                            <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
+                                <h3>Monday</h3>
+                                <div class="dash"></div>
+                                <p> 09:00 AM - 07:00 PM </p>
+                            </div>
+                            <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
+                                <h3>Tuesday</h3>
+                                <div class="dash"></div>
+                                <p> 09:00 AM - 07:00 PM </p>
+                            </div>
+                            <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
+                                <h3>Wednesday</h3>
+                                <div class="dash"></div>
+                                <p> 09:00 AM - 07:00 PM </p>
+                            </div>
+                            <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
+                                <h3>Thursday</h3>
+                                <div class="dash"></div>
+                                <p> 09:00 AM - 07:00 PM </p>
+                            </div>
+                            <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
+                                <h3>Friday</h3>
+                                <div class="dash"></div>
+                                <p> 09:00 AM - 07:00 PM </p>
+                            </div>
+                            <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
+                                <h3>Saturday</h3>
+                                <div class="dash"></div>
+                                <p> 09:00 AM - 07:00 PM </p>
+                            </div>
+                            <div class=" fw-light schedule--hours--item d-flex justify-content-between align-items-center">
+                                <h3>Sunday</h3>
+                                <div class="dash"></div>
+                                <p class="closed"> Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="dash dash__long center"></div>
+                    </div>
+        
+                    <div class="contact d-flex justify-content-center align-items-center mt-4">
+                        <div class="icon"><img src="images/icons/phone.svg" alt="phone image"></div>
+                        <div class="contact-info">
+                            <h2 class="display--3"><span class="d-inline-block">Emer</span><span class="d-inline-block">gency</span></h2>
+                            <p class="color--accent display--3">
+                                (237) 681-812-255
+                            </p>
+                        </div>
+                    </div>
+                </div>
+      
+            </section>
+        </section>
+
+        <section class="section--map text-center">
+            <img src="images/Map.png" alt="Map" class="img">
+        </section>
+        
+        <section class="section--contact">
+            <div class="header text-center">
+                <h2 class="text-uppercase color--secondary display--4 fw-bold letter--spacing">
+                    Get in touch
+                </h2>
+                <h3 class="font--yeseva color--primary display--2 mt-2">
+                    Contact
+                </h3>
+            </div>
+            
+            <div class="section--contact--info">
+                <div class="row justify-content-center gy-4 gx-4">
+                    <div class="col col-md-6 col-lg-3">
+                        <div class="col--content position-relative">
+                            <div class="section--contact--info--item color--primary">
+                                <img src="images/icons/phone-primary.svg" alt="Phone image">
+                                <h3 class="text-uppercase display--4 fw-bold">Emergency</h3>
+                                <p>(237) 681-812-255 <br/> (237) 666-331-894</p>
+                            </div>
+                            <div class="content__shade"></div>
+                        </div>
+
+                    </div>
+                    <div class="col col-md-6 col-lg-3">
+                        <div class="col--content col--content__primary position-relative">
+                            <div class="section--contact--info--item color--accent">
+                                <img src="images/icons/location.svg" alt="Phone image">
+                                <h3 class="text-uppercase display--4 fw-bold">Location</h3>
+                                <p>0123 Some place<br/> 9876 Some country</p>
+                            </div>
+                            <div class="content__shade"></div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-lg-3">
+                        <div class="col--content position-relative">
+                            <div class="section--contact--info--item color--primary ">
+                                <img src="images/icons/message.svg" alt="Phone image">
+                                <h3 class="text-uppercase display--4 fw-bold">Email</h3>
+                                <p> <span class="d-inline-block">fildineeesoe</span><span class="d-inline-block">@gmail.com</span> <br/> <span class="d-inline-block">myebstudios</span><span class="d-inline-block">@gmail.com</span></p>
+                            </div>
+                            <div class="content__shade"></div>
+                        </div>
+                        
+                    </div>
+                    <div class="col col-md-6 col-lg-3">
+                        <div class="col--content position-relative">
+                            <div class="section--contact--info--item color--primary">
+                                <img src="images/icons/clock.svg" alt="Phone image">
+                                <h3 class="text-uppercase display--4 fw-bold">Working Hours</h3>
+                                <p>Mon-Sat 09:00-20:00 <br/> Sunday Emergency only</p>
+                            </div>
+                            <div class="content__shade"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </div>
+
+    <div class="container-fluid p-0">
+        <footer class="pg-footer spacing--1">
+            <div class="container py-5">
+                <div class="pg-footer-info row pb-4 fw-light justify-content-center g-4">               
+                        
+                    <div class="pg-footer-medical col-12 col-sm-6 col-lg-3">
+                        <h3 class="text-uppercase fs-3 color--accent font--yeseva display--4 mb-4">meddical</h3>
+                        <p class=" text-capitalize ">leading the way in medical excellence, trusted care.</p>
+                    </div>
+                    <div class="pg-footer-links col-12 col-sm-6 col-lg-3 ">
+                        <div class="d-flex flex-column justify-content-center">
+                            <p class="text-capitalize fw-bold display--4 mb-4">important links</p>
+                            <div class="pg-footer-link-pages d-flex flex-column">
+                                <a href="#"class=" text-capitalize text-decoration-none">appointment</a>
+                                <a href="#"class=" text-capitalize text-decoration-none">doctors</a>
+                                <a href="#"class=" text-capitalize text-decoration-none">services</a>
+                                <a href="#"class=" text-capitalize text-decoration-none">about us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pg-footer-contact col-12 col-sm-6 col-lg-3">
+                        <p class="text-capitalize fw-bold display--4 mb-4">contact us</p>
+                        <p class=" m-0">Call: (237) 681-812-255</p>
+                        <p class=" m-0">Email: fildeneesooe@gmail.com</p>
+                        <p class=" m-0">Address: 0123 some place</p>
+                        <p class=" m-0">Some Country</p>
+                    </div>
+                    <div class="pg-footer-news col-12 col-sm-6 col-lg-3">
+                        <p  class="text-capitalize fw-bold display--4 mb-4">newsletter</p>
+                        <div class="pg-footer-news-email rounded overflow-auto">                        
+                            <div class=" position-relative d-inline-block">
+                                <input class="rounded p-2 pe-5 border-0 form-control" type="text" placeholder="Enter your email address " >
+                                <img class= "selector selector__adjust" src="images/icons/arrow.svg" alt="select">
+                            </div>
+                        </div>
+                            
+                       
+                    </div>
+                </div>
+                <hr class="">
+                <div class="pg-footer-bootom row justify-content-between pt-4 g-3">
+                    <div class="pg-footer-copyright col-12 col-md-6 ">
+                        <p>&copy 2021 MEDDICAL All Rights Reserved by PNTEC-LTD</p>
+                    </div>
+                    <div class="pg-footer-socials col-12 col-md-6 color--accent display--3">
+                        <span><i class="fab fa-linkedin px-1" aria-hidden="true"></i></span>
+                        <span><i class="fab fa-facebook px-1" aria-hidden="true"></i></span>
+                        <span><i class="fab fa-instagram px-1" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+            </div>
+    
+        </pg-footer>
+    
+    </div>
+    <script src="javaScript/appointment.js">
+
+    </script>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>

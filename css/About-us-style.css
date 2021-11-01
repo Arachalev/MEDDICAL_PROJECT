@@ -1,0 +1,32 @@
+.small-hero::before{
+    background-image: url("../images/Blackdoctors\ 1.png") !important;
+}
+
+.about{
+    position: relative;
+    height: 50vh;
+    background-color: #1F2B6C;
+    opacity: .97;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+
+.about::after{
+    background: url("../images/Rectangle\ 53.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    opacity: 0.4;
+    z-index: -20;
+}
+
+.Get-In-Touch h5{
+    margin-top: 7rem;
+}

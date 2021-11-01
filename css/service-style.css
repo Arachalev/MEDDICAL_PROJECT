@@ -1,0 +1,60 @@
+.small-hero{
+    position: relative;
+    height: 50vh;
+}
+
+.small-hero::before{
+    background-image: url("../images/Rectangle3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    opacity: 0.6;
+    z-index: -20;
+}
+
+.bottom-img{
+    position: absolute;
+    bottom: 0;
+}
+
+.doc-grid-card{
+    position: relative;
+}
+
+.card-icon{
+    position: absolute;
+        right: 15px;
+        top: -35px;
+}
+
+.first-card{
+    position: relative;
+    height: 37.5vh;
+    background-color: #1F2B6C;
+    opacity: .97;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-card::after{
+    background: url("../images/Rectangle 13.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    opacity: 0.4;
+    z-index: -20;
+}

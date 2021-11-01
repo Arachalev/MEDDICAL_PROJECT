@@ -1,52 +1,52 @@
 let illnesses = [
     {
-        imgSrc: "vector4",
+        imgSrc: "Vector4",
         name:'Neurology'
     },
     {
-        imgSrc: "vector4",
+        imgSrc: "Vector4",
         name:'Bones',
         color:'purple-color',
         white:'text-light'
     },
     {
-        imgSrc: "vector4",
+        imgSrc: "Vector4",
         name:'Oncology'
     },
     {
-        imgSrc: "vector4",
+        imgSrc: "Vector4",
         name:'Otorhinolaryngology'
     },
     {
-        imgSrc: "vector4",
+        imgSrc: "Vector4",
         name:'Ophthalmology'
     },
     {
-        imgSrc: "vector4",
+        imgSrc: "Vector4",
         name:'Cardiovascular'
     },
     {
-        imgSrc: "vector4",
+        imgSrc: "Vector4",
         name:'Pulmonology'
     },
     {
-        imgSrc: "vector4",
+        imgSrc: "Vector4",
         name:'Renal Medicine'
     },
     {
-        imgSrc: "vector4",
+        imgSrc: "Vector4",
         name:'Gastroenterology'
     },
     {
-        imgSrc: "vector4",
+        imgSrc: "Vector4",
         name:'Urology'
     },
     {
-        imgSrc: "vector4",
+        imgSrc: "Vector4",
         name:'Dermatology'
     },
     {
-        imgSrc: "vector4",
+        imgSrc: 'Vector4',
         name:'Gynaecology'
     }
 ]
